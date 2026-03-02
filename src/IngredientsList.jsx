@@ -15,7 +15,7 @@ const IngredientsList = (prop) => {
                 <h3>Ready for a recipe?</h3>
                 <p>Generate a recipe from your list of ingredients.</p>
               </div>
-              <button className="btn-get-recipe" onClick={prop.recipeList}>Get a recipe</button>
+              <button className="btn-get-recipe" onClick={prop.getRecipe}>Get a recipe</button>
             </div>}
         </section></div>
   )
